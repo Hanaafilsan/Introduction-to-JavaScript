@@ -8,7 +8,10 @@ Do the following:
    2. Return true if age is 18 or higher
 
 */
-
+let votingAge=20
+if (votingAge>=18){
+   console.log("ture")
+}
 
 
 /*
@@ -20,6 +23,12 @@ Do the following:
    3. Return the new value of the 1st variable
 
 */
+let a=10
+let b=10
+if(a=b){
+   console.log(20)
+}
+
 
 
 
@@ -33,6 +42,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+let x="1999"
+let y=parseInt(x)
+console.log(y)
+console.log(typeof (y)) 
 
 
 /*
@@ -44,8 +57,6 @@ Do the following:
    3. Else just print 'So moody!'
 
 */
-
-
 /*
 
 
@@ -55,10 +66,16 @@ Use conditionals to check if a hardcoded number is odd or even, and then console
 
 */
 
-var num; // write a number here
+var num; 3// write a number here
 
 // write your conditions here
+if(num%2==0){
+   console.log("number is even")
+}
 
+else{
+  console.log("number is odd")
+}
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 FIZZBUZZ 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -101,6 +118,36 @@ It's okay for it to be slow.
 
 
 */
+//1. you can make fizbuzz using this way:
+
+for(let i=0; i<=100;  i++){
+   if(i%3==0 && i%5){
+      console.log("FizBuzz")
+   }
+   else if( i%3==0){
+      console.log("Fizz")
+   }
+   else if(i%5==0){
+      console.log("Buzz")
+   }
+
+   else{
+      console.log(i)
+   }
+}
+
+
+//2.another way that you make fizbuzz
+/*for(var i=0; i<=100; )
+var output="";
+
+if(i%3==0){output += "Fizz"}
+if(i%5==0){output += "Buzz"}
+
+if(output== ""){output = i;}
+
+console.log(output)*/
+
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
